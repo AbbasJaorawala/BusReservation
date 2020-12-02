@@ -1,0 +1,87 @@
+body{
+  margin:0;
+  padding :0;
+  font-family :sans-serif;
+  background :#34495e;
+}
+.logout input{
+  float:left;
+  color:#2f2f2f;
+  padding:17px 18px;
+  text-align:center;
+  font-size:20px;
+  text-decoration:none;
+  
+}
+h1{
+ 
+  text-align:center;
+  Font-Family:Gill Sans;
+  text-transform:uppercase;
+  font-weight:300;
+  font-size:40pt;
+}
+#show{
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  position:absolute;
+  top:30%;
+}
+#show td, #show th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+#show th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #4CAF50;
+  color: white;
+}
+
+#show tr:nth-child(even){background-color: #f2f2f2;}
+
+#show tr:hover {background-color: #ddd;}
+.edit {
+  width :300px;
+  padding :40px;
+  position :absolute;
+  top :50%;
+  left :50%;
+  transform : translate(-50%,-50%);
+  background :#191919;
+  text-align :center;
+}
+.edit input[type="text"], input[type="number"]{
+  border :0;
+  background :none;
+  display :block;
+  margin :20px auto;
+  text-align:center;
+  border :2px solid #3498db;
+  padding :14px 10px;
+  width :200px;
+  outline :none;
+  color :white;
+  border-radius :24px;
+  transition :.25s;
+}
+.edit input[type="submit"]{
+  border :0;
+  background :none;
+  display :block;
+  margin :20px auto;
+  text-align:center;
+  border :2px solid #2ecc71;
+  padding :14px 40px;
+  width :200px;
+  outline :none;
+  color :white;
+  border-radius :24px;
+  transition :.25s;
+  cursor : pointer;
+}
+.searchBar input[type="submit"]:hover{
+  background:#2ecc71;
+}
